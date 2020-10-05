@@ -25,9 +25,6 @@ Enter a word: virus
 """
 
 myList = []
-myList.append(input("Enter a word: "))
-myList.append(input("Enter a word: "))
-myList.append(input("Enter a word: "))
-myList.append(input("Enter a word: "))
-myList.append(input("Enter a word: "))
+for i in range(0,5):
+    myList.append(input("Enter a word: ").strip())
 print(myList)

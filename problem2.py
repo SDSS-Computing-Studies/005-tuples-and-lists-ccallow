@@ -25,13 +25,10 @@ word not in list
 """
 
 fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
-a =input("Enter a word: ")
+a =input("Enter a word: ").strip()
 if a in fruit:
-    fruit.remove(a)
-    if a in fruit:
+    for i in range:
         fruit.remove(a)
-        if a in fruit:
-            fruit.remove(a)
 else:
     print("word not in list")
     fruit.append(a)

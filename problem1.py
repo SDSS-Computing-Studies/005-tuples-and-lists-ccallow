@@ -21,8 +21,8 @@ Enter the replacement:Dan
 """
 people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 print(people)
-a=input("Enter a word from the list: ")
-b=input("Enter another word: ")
+a=input("Enter a word from the list: ").strip()
+b=input("Enter another word: ").strip()
 position = (people.index(a))
 number = people[position]
 people = [a.replace(number, b) for a in people]
