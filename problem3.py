@@ -27,13 +27,12 @@ The largest number you entered is 92
 listNumbers = []
 while True:
     num =input("Enter a number: ")
-    a=int(num)
-    if a == -1:
+    num=int(num)
+    if num == -1:
         listNumbers.sort()
         b=str(listNumbers[-1])
         print("The largest number you entered is "+ b)
         break
     else:
         listNumbers.append(num)
-        continue
 
